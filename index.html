@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shaik Vasim | Developer & Entrepreneur</title>
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body{
+            background: linear-gradient(135deg, #0f172a, #1e293b);
+            color:white;
+            min-height:100vh;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            padding:20px;
+        }
+
+        .container{
+            max-width:900px;
+            text-align:center;
+        }
+
+        .card{
+            background: rgba(255,255,255,0.08);
+            backdrop-filter: blur(12px);
+            border:1px solid rgba(255,255,255,0.15);
+            border-radius:20px;
+            padding:50px;
+            box-shadow:0 15px 40px rgba(0,0,0,0.3);
+        }
+
+        .tag{
+            color:#38bdf8;
+            font-size:1rem;
+            letter-spacing:2px;
+            text-transform:uppercase;
+            margin-bottom:15px;
+        }
+
+        h1{
+            font-size:3.5rem;
+            margin-bottom:10px;
+        }
+
+        h2{
+            color:#94a3b8;
+            font-weight:400;
+            margin-bottom:25px;
+        }
+
+        .description{
+            font-size:1.1rem;
+            line-height:1.8;
+            color:#e2e8f0;
+            max-width:700px;
+            margin:0 auto 35px;
+        }
+
+        .highlight{
+            color:#38bdf8;
+            font-weight:bold;
+        }
+
+        .buttons{
+            display:flex;
+            justify-content:center;
+            gap:15px;
+            flex-wrap:wrap;
+        }
+
+        .btn{
+            text-decoration:none;
+            padding:14px 28px;
+            border-radius:10px;
+            font-weight:600;
+            transition:0.3s;
+        }
+
+        .primary{
+            background:#38bdf8;
+            color:#0f172a;
+        }
+
+        .primary:hover{
+            transform:translateY(-3px);
+        }
+
+        .secondary{
+            border:2px solid #38bdf8;
+            color:#38bdf8;
+        }
+
+        .secondary:hover{
+            background:#38bdf8;
+            color:#0f172a;
+        }
+
+        @media(max-width:768px){
+            h1{
+                font-size:2.5rem;
+            }
+
+            h2{
+                font-size:1.2rem;
+            }
+
+            .card{
+                padding:30px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="card">
+
+            <p class="tag">Future CEO • AI • Tech • Business</p>
+
+            <h1>Shaik Abdul Vasim</h1>
+
+            <h2>Developer & Entrepreneur</h2>
+
+            <p class="description">
+                Hi, I'm <span class="highlight">Vasim</span>, an aspiring developer
+                and entrepreneur passionate about AI, technology, and business.
+                I'm focused on building valuable skills, creating impactful
+                projects, and working toward launching my own startup.
+                <br><br>
+                If you're ambitious, curious, and interested in building
+                something meaningful, let's connect.
+            </p>
+
+            <div class="buttons">
+                <a href="https://www.linkedin.com/in/shaik-abdul-vasim-332498303/"
+                   target="_blank"
+                   class="btn primary">
+                    Connect on LinkedIn
+                </a>
+
+                <a href="mailto:yourmail@example.com"
+                   class="btn secondary">
+                    Contact Me
+                </a>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+</html>
